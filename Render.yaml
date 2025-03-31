@@ -1,0 +1,16 @@
+services:
+
+type: web name: Save-Restricted-Content-Bot-v3 env: python buildCommand: "pip install -r requirements.txt" startCommand: "python main.py" envVars:
+
+key: BOT_TOKEN sync: false
+
+key: MONGO_URI sync: false
+
+key: API_ID sync: false
+
+key: API_HASH sync: false
+
+key: OWNER_ID sync: false
+
+
+
